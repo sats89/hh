@@ -93,9 +93,65 @@ export default function ContactPage() {
               </CardContent>
             </Card>
           </div>
+        {/* Map Section */}
+        <div className="mt-0">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Find Us</h2>
+          <div className="bg-gray-100 rounded-lg overflow-hidden" style={{ height: "400px" }}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.5947363207845!2d151.20699831521!3d-33.86882098065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sGeorge%20St%2C%20Sydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sau!4v1635123456789!5m2!1sen!2sau"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Sydney Harbor Hostel Location"
+            ></iframe>
+          </div>
+          {/* Transportation */}
+        <div className="mt-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">How to Get Here</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <Plane className="h-5 w-5 text-blue-600" />
+                  <span>From Airport</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Airport Link train to Circular Quay (13 minutes)</li>
+                  <li>• 5-minute walk from Circular Quay Station</li>
+                  <li>• Taxi/Uber: 20-30 minutes depending on traffic</li>
+                  <li>• Airport shuttle services available</li>
+                </ul>
+              </CardContent>
+            </Card>
 
-          {/* Contact Form */}
-          <div>
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <Train className="h-5 w-5 text-blue-600" />
+                  <span>Public Transport</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Circular Quay Station: 5-minute walk</li>
+                  <li>• Wynyard Station: 8-minute walk</li>
+                  <li>• Multiple bus routes along George Street</li>
+                  <li>• Ferry terminal at Circular Quay nearby</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+        </div>
+          
+        </div>
+{/* Contact Form */}
+          {/* <div>
             <Card>
               <CardHeader>
                 <CardTitle>Send us a Message</CardTitle>
@@ -140,65 +196,8 @@ export default function ContactPage() {
                 </form>
               </CardContent>
             </Card>
-          </div>
-        </div>
-
-        {/* Map Section */}
-        <div className="mt-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Find Us</h2>
-          <div className="bg-gray-100 rounded-lg overflow-hidden" style={{ height: "400px" }}>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.5947363207845!2d151.20699831521!3d-33.86882098065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sGeorge%20St%2C%20Sydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sau!4v1635123456789!5m2!1sen!2sau"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Sydney Harbor Hostel Location"
-            ></iframe>
-          </div>
-        </div>
-
-        {/* Transportation */}
-        <div className="mt-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">How to Get Here</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2">
-                  <Plane className="h-5 w-5 text-blue-600" />
-                  <span>From Airport</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Airport Link train to Circular Quay (13 minutes)</li>
-                  <li>• 5-minute walk from Circular Quay Station</li>
-                  <li>• Taxi/Uber: 20-30 minutes depending on traffic</li>
-                  <li>• Airport shuttle services available</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2">
-                  <Train className="h-5 w-5 text-blue-600" />
-                  <span>Public Transport</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Circular Quay Station: 5-minute walk</li>
-                  <li>• Wynyard Station: 8-minute walk</li>
-                  <li>• Multiple bus routes along George Street</li>
-                  <li>• Ferry terminal at Circular Quay nearby</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
+          </div> */}
+        
       </div>
     </div>
   )
