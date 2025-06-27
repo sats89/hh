@@ -25,9 +25,9 @@ export default function HomePage() {
             the city.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" asChild className="bg-background text-primary hover:bg-secondary">
+            {/* <Button size="lg" asChild className="bg-background text-primary hover:bg-secondary">
               <Link href="#book">Book Your Stay</Link>
-            </Button>
+            </Button> */}
             <Button
               size="lg"
               variant="outline"
@@ -105,7 +105,7 @@ export default function HomePage() {
       </section>
 
       {/* Rooms Section */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Comfortable Accommodation</h2>
@@ -181,19 +181,19 @@ export default function HomePage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section id="book" className="py-16 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Experience Sydney?</h2>
-          <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+          {/* <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
             Book your stay at Sydney Harbor Hostel and start your Australian adventure today
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-background text-primary hover:bg-secondary">
+          </p> */}
+          <div className="flex flex-col sm:flex-row gap-4 mt-12 justify-center">
+            {/* <Button size="lg" className="bg-background text-primary hover:bg-secondary">
               Book Direct & Save
-            </Button>
+            </Button> */}
             <Button
               size="lg"
               variant="outline"
