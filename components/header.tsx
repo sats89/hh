@@ -21,7 +21,13 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-full bg-blue-600"></div>
+            <div className="h-8 w-8 rounded-full bg-blue-600">
+              <svg viewBox="0 0 32 32" fill="none" className="h-8 w-8" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="16" r="16" fill="#2563eb" />
+                <path d="M8 20l8-12 8 12H8z" fill="#fff" />
+                <circle cx="16" cy="18" r="2" fill="#2563eb" />
+              </svg>
+            </div>
             <span className="text-xl font-bold text-gray-900">Sydney Harbor Hostel</span>
           </Link>
 
